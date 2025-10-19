@@ -23,6 +23,6 @@ namespace KutuphaneDataAccess.Repository
 
         void DeleteRange(List<TEntity> entities);
 
-        //IQueryable<TEntity> Quaryable();
+        IQueryable<TEntity> Quaryable();
     }
 }

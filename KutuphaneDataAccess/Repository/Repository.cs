@@ -47,6 +47,11 @@ namespace KutuphaneDataAccess.Repository
            return await _dbSet.FindAsync(id);
         }
 
+        public IQueryable<TEntity> Quaryable()
+        {
+            return _dbSet.AsQueryable();
+        }
+
         public void Update(TEntity entity)
         {
             _dbSet.Update(entity); 
