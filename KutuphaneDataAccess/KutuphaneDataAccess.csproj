@@ -23,4 +23,8 @@
     <ProjectReference Include="..\KutuphaneCore\KutuphaneCore.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Migrations\" />
+  </ItemGroup>
+
 </Project>
